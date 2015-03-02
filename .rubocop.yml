@@ -6,3 +6,6 @@ AllCops:
     - bin/**/*
     - tmp/**/*
     - db/schema.rb
+    - db/migrate/**/*
+    - config/initializers/devise.rb
+    - Guardfile
