@@ -71,3 +71,7 @@ group :development, :test do
   gem 'letter_opener'
   gem 'rubocop'
 end
+
+group :test do
+  gem 'shoulda-matchers', require: false
+end
